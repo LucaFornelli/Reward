@@ -1,0 +1,7 @@
+<table border="1">
+	<g:each in="${}" var="">
+		<tr>
+			<td>${}</td>
+		</tr>
+	</g:each>
+</table>

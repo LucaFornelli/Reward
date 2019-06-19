@@ -1,0 +1,7 @@
+<!-- pad button script -->
+<script> function padkey(num) {
+	var txt=document.getElementById("phone").value;
+	txt=txt + num;
+	document.getElementById("phone").value=txt;
+	}
+</script>
